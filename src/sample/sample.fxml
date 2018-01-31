@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="500" maxWidth="500" minHeight="500" minWidth="500" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="closeButton" layoutX="213.0" layoutY="63.0" mnemonicParsing="false" onAction="#runButton" prefHeight="40.0" prefWidth="100.0" text="Exit" textOverrun="CLIP" />
+   </children>
+</Pane>
