@@ -1,0 +1,21 @@
+.closebutton {
+   -fx-background-color: linear-gradient(#97a8a8, #0a3652);
+   -fx-padding: 6px 12px;
+   -fx-border-radius: 16px;
+   -fx-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -fx-text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   -fx-font-family: "Helvetica";
+   -fx-text-fill: white;
+   -fx-font-weight: bold;
+   }
+.closebutton:hover {
+   -fx-background-color: #2f4f63;
+   -fx-color: #fff;
+   }
+.closebutton:active {
+   -fx-background-color: #13496b;
+   }
+.pane{
+   -fx-border-radius: 16px;
+   -fx-background-color: linear-gradient(to bottom, #f2f2f2, #C1C1C1);
+}
