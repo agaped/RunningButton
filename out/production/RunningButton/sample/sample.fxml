@@ -2,9 +2,13 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<Pane maxHeight="500" maxWidth="500" minHeight="500" minWidth="500" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<Pane fx:id="pane" maxHeight="400.0" maxWidth="400.0" minHeight="400.0" minWidth="400.0" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Button fx:id="closeButton" layoutX="213.0" layoutY="63.0" mnemonicParsing="false" onAction="#runButton" prefHeight="40.0" prefWidth="100.0" text="Exit" textOverrun="CLIP" />
+      <Button fx:id="closeButton" layoutX="370.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#runButton" prefHeight="30.0" prefWidth="30.0" text="x" textOverrun="CLIP">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
    </children>
 </Pane>

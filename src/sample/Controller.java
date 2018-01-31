@@ -3,6 +3,8 @@ package sample;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 import java.util.Random;
@@ -11,17 +13,18 @@ public class Controller {
 
     @FXML
     Button closeButton;
-
-/*    public void closeButtonAction(){
-        Stage stage = (Stage) closeButton.getScene().getWindow();
-        stage.close();
-    }*/
-
+    @FXML
+    Pane pane;
 
     public void runButton(ActionEvent actionEvent) {
         Random rand=new Random();
-        closeButton.setLayoutX((rand.nextDouble()*400)-closeButton.getLayoutBounds().getMinX());
-        closeButton.setLayoutY((rand.nextDouble()*400)-closeButton.getLayoutBounds().getMinY());
-
+        closeButton.setLayoutX((rand.nextDouble()*(pane.getWidth()-closeButton.getWidth())+closeButton.getWidth())
+                -closeButton
+                .getLayoutBounds()
+                .getMaxX());
+        closeButton.setLayoutY((rand.nextDouble()*(pane.getHeight()-closeButton.getHeight())+closeButton.getHeight())
+                -closeButton
+                .getLayoutBounds()
+                .getMaxY());
     }
 }
