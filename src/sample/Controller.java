@@ -3,9 +3,7 @@ package sample;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.layout.Pane;
-import javafx.stage.Stage;
 
 import java.util.Random;
 
@@ -16,7 +14,7 @@ public class Controller {
     @FXML
     Pane pane;
 
-    public void runButton(ActionEvent actionEvent) {
+    public void runButton() {
         Random rand=new Random();
         closeButton.setLayoutX((rand.nextDouble()*(pane.getWidth()-closeButton.getWidth())+closeButton.getWidth())
                 -closeButton
