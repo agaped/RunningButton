@@ -16,7 +16,6 @@
    -fx-background-color: #13496b;
    }
 .pane{
-    -fx-border-radius: 16px;
-        -fx-background-color:
-        linear-gradient(to bottom, #f2f2f2, #C1C1C1);
+   -fx-border-radius: 16px;
+   -fx-background-color: linear-gradient(to bottom, #f2f2f2, #C1C1C1);
 }
