@@ -2,13 +2,10 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.text.Font?>
 
-<Pane fx:id="pane" maxHeight="400.0" maxWidth="400.0" minHeight="400.0" minWidth="400.0" prefHeight="400.0" prefWidth="400.0" styleClass="pane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Controller">
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" styleClass="pane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Controller">
    <children>
-      <Button fx:id="closeButton" alignment="CENTER" contentDisplay="CENTER" layoutX="365.0" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseEntered="#runButton" prefHeight="35.0" prefWidth="35.0" styleClass="closebutton" stylesheets="@style.css" text="X" textFill="WHITE" textOverrun="CLIP">
-         <font>
-            <Font size="14.0" />
-         </font></Button>
+      <Button fx:id="closeButton" layoutX="369.0" mnemonicParsing="false" onMouseEntered="#runButton" prefHeight="25.0" prefWidth="25.0" styleClass="closebutton" stylesheets="@style.css" text="X" />
    </children>
 </Pane>
